@@ -18,7 +18,7 @@ The app was built using a RESTful API which has been replaced with an Apollo Ser
 
 ## Deployed Application
 
-The app was deployed using Heroku and can be found [here](https://lcfhines.github.io/react-portfolio/).
+The app was deployed using Heroku and can be found [here]().
 
 <!-- screenshot -->
 
