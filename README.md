@@ -18,9 +18,10 @@ The app was built using a RESTful API which has been replaced with an Apollo Ser
 
 ## Deployed Application
 
-The app was deployed using Heroku and can be found [here]().
+The app was deployed using Heroku and can be found [here]().  
 
-<!-- screenshot -->
+![Screenshot 2022-12-08 at 6 52 46 PM](https://user-images.githubusercontent.com/113798073/206591100-9122461f-344f-413c-995d-e76cbed6150f.png)
+
 
 ## Technologies
 
