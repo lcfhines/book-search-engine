@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 }
 
-app.use(routes);
+// app.use(routes);
 
 // create new instance of Apollo server
 const startApolloServer = async (typeDefs, resolvers) => {
