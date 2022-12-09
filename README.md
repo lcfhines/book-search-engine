@@ -10,10 +10,14 @@ The app was built using a RESTful API which has been replaced with an Apollo Ser
 
 ## Installation
 
+Run ```npm i``` in the root of the directory. 
+
+Run ```npm develop``` to start and open the app in your browser. The server, accessible via the GraphQL path, will also be started.
 
 
 ## Usage
 
+To use the app, search for a book and hit submit to see images and info for matching results. To save a book, log in or sign up. View saved books by navigating to 'See Your Books'.
 
 
 ## Deployed Application
@@ -25,6 +29,7 @@ The app was deployed using Heroku and can be found [here]().
 
 ## Technologies
 
+MERN Stack
 
 ## Credits
 
