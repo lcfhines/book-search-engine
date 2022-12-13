@@ -73,13 +73,10 @@ const SearchBooks = () => {
       // if (!response.ok) {
       //   throw new Error('something went wrong!');
       // }
-
-      if (!bookToSave.description) {
-        bookToSave.description = 'no description provided'
-      }
-       saveBook({
-        variables: { ...bookToSave }
+      const { data } = await saveBook({
+        variables: { input: bookToSave },
       });
+
       // if book successfully saves to user's account, save book id to state
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
     } catch (err) {
